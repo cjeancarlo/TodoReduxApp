@@ -5,5 +5,5 @@
         <label (dblclick)="Edit()">{{todo.texto}}</label>
         <button class="destroy" (click)="Delete()"></button>
     </div>
-    <input (blur)="terminarEdicion()" #txtInputFisico [formControl]="txtInput" class="edit" [value]="todo.texto">
+    <input (blur)="FinishEdicion()" #txtInputFisico [formControl]="txtInput" class="edit" [value]="todo.texto">
 </li>
